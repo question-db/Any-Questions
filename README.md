@@ -7,6 +7,7 @@ FileMaker Database for Canvas LMS quiz questions
 
 	• Download FileMaker<br />
 	• Options: I avoid the rental model <br />
+	
 		a) use 14 day Trial to evaluate: https://www.claris.com/trial/<br />
 		b) CBS site license (contact CBS IT)<br />
 		c) Single user license: https://store.claris.com/individuals<br />
@@ -27,16 +28,19 @@ FileMaker Database for Canvas LMS quiz questions
 
 1) Download and install Filemaker<br />
 2) Download the Base Elements Plugin (BaseElements)<br />
-	a) download plugin<br />
-	b) decompress and note file location<br />
-	c) open Filemaker<br />
-	d) drag the plugin into the Startup window in FileMaker<br />
-	e) click the 'Install Plugin' button<br />
+
+		a) download plugin<br />
+		b) decompress and note file location<br />
+		c) open Filemaker<br />
+		d) drag the plugin into the Startup window in FileMaker<br />
+		e) click the 'Install Plugin' button<br />
 3) Following instructions in FileMaker database "Startup" window<br />
-	a) enter Canvas Course ID number<br />
-	B) enter API token for Canvas access via API<br />
+
+		a) enter Canvas Course ID number<br />
+		b) enter API token for Canvas access via API<br />
 
 4) Optional: install example questions<br />
-	a) download question_exmaples.zip<br />
-	b) decompress file<br />
-	c) import into Questions<br />
+
+		a) download question_exmaples.zip<br />
+		b) decompress file<br />
+		c) import into Questions<br />
