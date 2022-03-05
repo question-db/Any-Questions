@@ -19,7 +19,8 @@ FileMaker Database for Canvas LMS quiz questions
 
 3) Canvas Course identification number
 4) Canvas API token
-	
+
+
 
 ## Installation
 
