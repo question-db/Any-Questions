@@ -7,6 +7,7 @@ FileMaker Database for Canvas LMS quiz questions
 
 	• Download FileMaker
 	• Options: I avoid the rental model
+
 		a) use 14 day Trial to evaluate: https://www.claris.com/trial/
 		b) CBS site license (contact CBS IT)
 		c) Single user license: https://store.claris.com/individuals
