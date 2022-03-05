@@ -10,8 +10,7 @@ FileMaker Database for Canvas LMS quiz questions
 		b) CBS site license (contact CBS IT)
 		c) Single user license: https://store.claris.com/individuals
 			• upgrade: $197
-			• academic: $324 (full version only)
-					
+			• academic: $324 (full version only)					
 2) Base Elements Plugin
 	• install after Filemaker
 	• required for Canvas quiz upload and platform compatability
