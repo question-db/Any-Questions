@@ -21,7 +21,6 @@ FileMaker Database for Canvas LMS quiz questions
 4) Canvas API token
 
 
-
 ## Installation
 
 1) Download and install Filemaker
