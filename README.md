@@ -39,5 +39,7 @@ FileMaker Database for Canvas LMS quiz questions
 
 4) Optional: install example questions<br />
 	* decompress the question_examples.zip file<br />
-	* within database, select 'Questions' layout and click the import quiz icon<br />
+	* within the database, select 'Questions' layout and click the import quiz icon<br />
 	* import into Questions<br />
+
+5) Download and look over the feature_log.pdf file to learn about features, caveats, and known limitations.
