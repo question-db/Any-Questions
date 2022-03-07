@@ -32,14 +32,16 @@ FileMaker Database for Canvas LMS quiz questions
 	* decompress and note file location<br />
 	* note location on drive<br />
 
-3) Follow instructions in Any Questions "Startup" window<br />
+3) Download the database files, decompress, and open
+
+4) Follow instructions in Any Questions "Startup" window<br />
 	* install plugin<br />
 	* enter Canvas Course ID number<br />
 	* enter API token for Canvas access via API<br />
 
-4) Optional: install example questions<br />
+5) Optional: install example questions<br />
 	* decompress the question_examples.zip file<br />
 	* within the database, select 'Questions' layout and click the import quiz icon<br />
 	* import into Questions<br />
 
-5) Download and look over the feature_log.pdf file to learn about features, caveats, and known limitations.
+6) Look over the feature_log.pdf file to learn about features, caveats, and known limitations.
