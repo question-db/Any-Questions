@@ -38,7 +38,6 @@ FileMaker Database for Canvas LMS quiz questions
 	* enter API token for Canvas access via API<br />
 
 4) Optional: install example questions<br />
-
-	* download question_exmaples.zip<br />
-	* decompress file<br />
+	* decompress the question_examples.zip file<br />
+	* within database, select 'Questions' layout and click the import quiz icon<br />
 	* import into Questions<br />
