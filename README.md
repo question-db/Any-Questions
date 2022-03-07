@@ -30,12 +30,10 @@ FileMaker Database for Canvas LMS quiz questions
 
 	* download plugin<br />
 	* decompress and note file location<br />
-	* open Filemaker<br />
-	* drag the plugin into the Startup window in FileMaker<br />
-	* click the 'Install Plugin' button<br />
+	* note location on drive<br />
 
 3) Follow instructions in Any Questions "Startup" window<br />
-
+	* install plugin<br />
 	* enter Canvas Course ID number<br />
 	* enter API token for Canvas access via API<br />
 
