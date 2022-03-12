@@ -29,4 +29,4 @@ FileMaker Database for Canvas LMS quiz questions
 
 3. Follow instructions in Any Questions "Startup" window
 
-4. Look over the feature_log.pdf file to learn about features, caveats, and known limitations.
+4. Look over the feature_log.pdf file to detailed features, caveats, and known limitations.
