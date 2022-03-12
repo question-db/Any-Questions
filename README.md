@@ -2,7 +2,7 @@
 FileMaker Database for Canvas LMS quiz questions
 
 ## Downloads
-1. [Database](https://github.com/question-db/Any-Questions/blob/main/database%20files/Any Questions.fmp12.zip "Database")
+1. [Database](https://github.com/question-db/Any-Questions/blob/main/database%20files/Any%20Questions.fmp12.zip "Database")
 2. [Example Questions](https://github.com/question-db/Any-Questions/blob/main/database%20files/example%20questions.zip "Example Questions")
 
 
