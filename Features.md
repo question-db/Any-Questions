@@ -1,4 +1,4 @@
-**Key features:**
+**Key database features:**
 
 1. Data import/export formats
 	* Canvas quiz (QTI 1.2)

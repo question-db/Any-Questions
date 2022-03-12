@@ -1,47 +1,50 @@
 # Any Questions
 FileMaker Database for Canvas LMS quiz questions
 
+## Downloads
+1. [Database](https://github.com/question-db/Any-Questions/blob/main/database%20files/Any_Questions.fmp12.zip "Database")
+2. [Example Questions](https://github.com/question-db/Any-Questions/blob/main/database%20files/example%20questions.zip "Example Questions")
+
+
 ## Requirements
 
-1) FileMaker (version 16 or higher; database made with v. 19.4.2)<br />
+1) FileMaker (version 16 or higher; database made with v. 19.4.2)
+	* Download FileMaker
+	* Options: I avoid the rental model
+		* use a 14 day [Trial](https://www.claris.com/trial/ "Claris FileMaker") to evaluate:
+		* CBS site license (contact CBS IT)
+		* Single [user](https://store.claris.com/individuals "Claris FileMaker") license
+	* upgrade: $197
+	* academic: $324 (full version only)
 
-	* Download FileMaker<br />
-	* Options: I avoid the rental model <br />
-		* use 14 day Trial to evaluate: https://www.claris.com/trial/<br />
-		* CBS site license (contact CBS IT)<br />
-		* Single user license: https://store.claris.com/individuals<br />
-	* upgrade: $197<br />
-	* academic: $324 (full version only)<br />
-2) Base Elements Plugin<br />
+2) Base Elements Plugin
+	* install after Filemaker
+	* required for Canvas quiz upload capability
+	* [Base Elemnts](https://docs.baseelementsplugin.com/article/522-downloads) plugin download
 
-	* install after Filemaker<br />
-	* required for Canvas quiz upload and platform compatability<br />
-	* download: https://docs.baseelementsplugin.com/article/522-downloads<br />
+3) Canvas Course identification number
 
-3) Canvas Course identification number<br />
-4) Canvas API token<br />
+4) Canvas API token
 
+## Installation
 
+1) Download and install Filemaker
+2) Download the Base Elements Plugin (BaseElements)
 
-## Installation<br />
-
-1) Download and install Filemaker<br />
-2) Download the Base Elements Plugin (BaseElements)<br />
-
-	* download plugin<br />
-	* decompress and note file location<br />
-	* note location on drive<br />
+	* download the [plugin](https://docs.baseelementsplugin.com/article/522-downloads "BaseElements")
+	* decompress and note file location
+	* note location on drive
 
 3) Download the database files, decompress, and open
 
-4) Follow instructions in Any Questions "Startup" window<br />
-	* install plugin<br />
-	* enter Canvas Course ID number<br />
-	* enter API token for Canvas access via API<br />
+4) Follow instructions in Any Questions "Startup" window
+	* install the plugin
+	* enter Canvas Course ID number
+	* enter API token for Canvas access via API
 
-5) Optional: install example questions<br />
-	* decompress the question_examples.zip file<br />
-	* within the database, select 'Questions' layout and click the import quiz icon<br />
-	* import into Questions<br />
+5) Optional: install example questions
+	* decompress the question_examples.zip file
+	* within the database, select 'Questions' layout and click the import quiz icon
+	* import into Questions
 
 6) Look over the feature_log.pdf file to learn about features, caveats, and known limitations.
