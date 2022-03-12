@@ -23,10 +23,10 @@ FileMaker Database for Canvas LMS quiz questions
 	* Filemaker
 	* BaseElements [plugin](https://docs.baseelementsplugin.com/article/522-downloads "BaseElements")
 
-2. Download files, decompress, and open Any Questions.fmp12 file
-	* [Any Questions Database](database%20files/Any%20Questions.fmp12.zip)
+2. Download the following, decompress each, and open the Any Questions.fmp12 file
+	* [Any Questions](database%20files/Any%20Questions.fmp12.zip) database
 	* [Example Questions](database%20files/example%20questions.zip)
 
 3. Follow instructions in Any Questions "Startup" window
 
-4. View [Features.md](Features.md) and [Feature log](feature_log.pdf) for details
+4. View [Features.md](Features.md) and [Feature log](feature_log.pdf) for more detailed information.
