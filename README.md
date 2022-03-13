@@ -2,9 +2,9 @@
 FileMaker Database for Canvas LMS quiz questions
 
 ## Download
-1. [Any Questions.zip](Any%20Questions.zip) which contains:
-	* Any Questions.fmp12 database<br />
-	* Example Questions QTI folder (already unzipped and ready for initial import test)<br />
+[Any Questions.zip](Any%20Questions.zip) which contains:<br />
+* 'Any Questions.fmp12' database<br />
+* Uncompressed 'Example Questions' QTI folder (ready for initial import test)<br />
 
 
 ## Requirements
