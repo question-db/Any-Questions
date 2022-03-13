@@ -21,7 +21,7 @@ FileMaker Database for Canvas LMS quiz questions
 	* Filemaker
 	* BaseElements [plugin](https://docs.baseelementsplugin.com/article/522-downloads "BaseElements")
 
-2. Download and decompress: [Any Questions.zip](Any%20Questions.zip)<br />
+2. Download and decompress: [Any_Questions.zip](Any_Questions.zip)<br />
 
 3. Follow instructions in Any Questions "Startup" window
 
