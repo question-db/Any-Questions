@@ -1,9 +1,8 @@
 # Any Questions
 FileMaker Database for Canvas LMS quiz questions
 
-## Downloads
-1. [Database](database%20files/Any%20Questions.fmp12.zip)
-2. [Example Questions](database%20files/example%20questions.zip)
+## Download
+1. [Any Questions.zip](Any%20Questions.zip)
 
 
 ## Requirements
