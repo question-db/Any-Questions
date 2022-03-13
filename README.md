@@ -27,4 +27,8 @@ FileMaker Database for Canvas LMS quiz questions
 
 4. View [Features.md](Features.md) and [Feature log](feature_log.pdf) for more detailed information.
 
+	* Caution: When prompted following the first run, please choose a Canvas developmental course for testing. While I have done my best to validate and test scripts, I am confident others will discover bugs, especially in the context of quiz import given that I do not use Canvas to manage quizzes. For example, 'quiz groups' are new to me and I only had a single example to test. Currently, the import for 'quiz groups' is only setup for multiple choice-formatted questions. However, the import currently creates duplicates and you may find the questions high-lighted in red after import. If so, this indicates that the answer was not properly scraped from the XML because of embedded HTML. Enter an answer and it will go away. It would be great if others could send quiz groups for testing as I will unlikely invest time creating them simply so I can re-import them.
+
+
 5. Discover a problem or have a suggestion, post an [issue](https://github.com/question-db/Any-Questions/issues) so it can be investigated/considered.
+
