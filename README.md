@@ -3,7 +3,7 @@ FileMaker Database for Canvas LMS quiz questions<br />
 * I currently consider the database 'alpha' code given that:
 	1. additional features are still being added to facilitate more general use
 	2. the database has only  been tested by me
-* If/when someone provides feedback, I will move the database to beta and start a change log
+* If/when someone provides feedback, I will move the database to 'beta' and start a change log
 * When I discover an issue on my end, I post an updated database when it is fixed
 
 ## Download
@@ -39,5 +39,5 @@ FileMaker Database for Canvas LMS quiz questions<br />
 	* If questions are high-lighted in red after import, the script failed to scrape the answer from the XML. This results from extra HTML-embedded code in the answer. Enter an answer in the database and it will go away.
 	* It would be great if others could send 'quiz group' examples for testing as I will unlikely invest time creating them simply so I can re-import them.
 
-5. Discover a problem or have a suggestion, post an [issue](https://github.com/question-db/Any-Questions/issues) so it can be investigated/considered.
+5. Discover a problem not listed in the [known issues](known_issues.md) or have a suggestion, post an [issue](https://github.com/question-db/Any-Questions/issues) so it can be investigated/considered.
 
