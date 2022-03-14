@@ -25,7 +25,7 @@ FileMaker Database for Canvas LMS quiz questions
 
 3. Follow instructions in Any Questions "Startup" window
 
-4. View [Features.md](Features.md) and [Feature log](feature_log.pdf) for more detailed information.
+4. View [Features.md](Features.md), [Feature log](feature_log.pdf), and [known issues](known_issues.md) for more detailed information.
 
 	**Caution** <br />
 	* When prompted following the first run, please choose a Canvas developmental course for testing. While I have done my best to validate and test scripts, I am confident others will discover bugs, especially in the context of quiz import given that I do not use Canvas to manage quizzes. For example, 'quiz groups' are new to me and I only had a single example to test. <br />
