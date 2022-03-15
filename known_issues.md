@@ -25,20 +25,19 @@
 
 
 ## 2. Exporting quizzes to Canvas
-1. Quiz question ordering: a question number must be specified within the question number data field to properly order quiz questions.
-2. question formats
+1. question formats
 	* all formats: Canvas does not honor the 'height' tag of images/figures following import, but does honor the 'width' flag. As such, the database proportionally scales the image based on the image width specified in the figure settings.
 	* Essay: Canvas does not allow inclusion of an answer in the essay format.
-3. General: if a quiz export is not allowed to complete or is prematurely canceled, this may cause the import to lock up. Evidence of this is obvious on the Import status page where it says "pre-processing". In this event, there are two options: 1) allow Canvas to clear the problem automatically (which can take up to 24 hrs) or 2) reset the course page. As a consequence, be sure to test exports using the developmental course.
-4. Question formating:
+2. General: if a quiz export is not allowed to complete or is prematurely canceled, this may cause the import to lock up. Evidence of this is obvious on the Import status page where it says "pre-processing". In this event, there are two options: 1) allow Canvas to clear the problem automatically (which can take up to 24 hrs) or 2) reset the course page. As a consequence, be sure to test exports using the developmental course.
+3. Question formating:
 	* Any text in the 'question' section can be formatted using Filemaker. Formats ( italic, underline, etc) will be sent to Canvas in HTML automatically. Unfortunately. instead of *strong* /bold Filemaker uses "font style" which is not recognized by Canvas.
 	* The following characters are substituted automatically in CSS transform to comply with XML constraints <,>, ", ', &.
 	* Unicode characters for lowercase Greek alphabet are hard-coded (i.e. &alpha; → &#x3B1) and should be automatically converted into XML-compliant format. Other Unicode characters will need to be added individually. If formatted HTML is buggy on Canvas after export, check for Unicode characters.
-5. Rapid/repeated quiz upload:
+4. Rapid/repeated quiz upload:
 	* Quizzes can be uploaded faster than Canvas servers can process (depending on Canvas server load at any particular time of day). This can cause quizzes to become out of register with the database. If this happens multiple quizzes with identical names will be present on Canvas. Thus, if a user tries to delete a specific quiz, multiple delete cycles will be needed to clear all copies.
-6. Proctorio:
+5. Proctorio:
 	* If Proctorio is selected for quiz monitoring, the specific settings may not be as expected given that these settings are specified using a quiz-specific character string generated when the quiz is generated on Canvas — which cannot be duplicated remotely. If someone knows how to capture this data, please let me know.
-7. Respondus:
+6. Respondus:
 	* This is completely untested as I have never used it. The setting simply tells Canvas to activate the setting.
 
 ## 3. Export quiz to HTML for printing
