@@ -12,9 +12,9 @@ The database is intended for use by instructors as an offline tool to manage cou
 
 ## Download
 [Any_Questions.zip](Any_Questions.zip) which contains:<br />
-* Any Questions_v[#.#a].fmp12 — database file with version indicated by v[#.#] (i.e. v4.0a)
-* Example Questions — QTI folder (ready for initial import test)
-* quick_start.pd' — illustrated guide to database layout and functions
+* Any Questions_v[#.#a].fmp12 — database file
+* Example Questions — uncompressed QTI folder (ready for initial import test)
+* quick_start.pd — illustrated guide to database layout and functions
 
 
 ## Requirements
