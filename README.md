@@ -14,7 +14,7 @@ The database is intended for use by instructors as an offline tool to manage cou
 [Any_Questions.zip](Any_Questions.zip) which contains:<br />
 * Any Questions_v[#.#a].fmp12 — FileMaker database file
 * Example Questions — uncompressed QTI folder (ready for initial import test)
-* quick_start.pd — illustrated guide to database layout and functions
+* quick_start.pdf — illustrated guide to database layout and functions
 
 
 ## Requirements
@@ -23,7 +23,7 @@ The database is intended for use by instructors as an offline tool to manage cou
 	* Options: [Trial](https://www.claris.com/trial/ "Claris FileMaker"), [Single User](https://store.claris.com/individuals "Claris FileMaker"), or site license
 
 2) Base Elements Plugin: [Download](https://docs.baseelementsplugin.com/article/522-downloads)
-	* required for Canvas quiz upload compatability
+	* required for Canvas QTI quiz compression
 
 ## Installation
 
