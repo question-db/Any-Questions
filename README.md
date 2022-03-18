@@ -43,7 +43,7 @@ The application is intended for use by instructors as an offline tool to create 
 	* When prompted following the first run, please choose a Canvas developmental course for testing. While I have done my best to validate and test scripts, I am confident others will discover bugs, especially in the context of quiz import given that I do not use the Canvas webpage to manage quizzes. For example, 'quiz groups' are new to me and I only had a single example to test. <br />
 	* 'Quiz groups' are currently only setup to import multiple choice-formatted questions.
 	* If questions are high-lighted in red after import, the script failed to scrape the answer from the XML. This results from extra HTML-embedded code in the answer. Enter an answer in the database and it will go away.
-	* It would be great if others could send 'quiz group' examples for testing as I will unlikely invest time creating them simply so I can re-import them.
+	* It would be great if others could send 'quiz group' examples for testing — it is unlikely that I will invest time creating them simply so I can re-import for testing.
 
 5. Discover a problem not listed in the [known issues](known_issues.md) or have a suggestion, post an [issue](https://github.com/question-db/Any-Questions/issues) so it can be investigated/considered.
 
