@@ -1,14 +1,15 @@
 # Any Questions
 ## FileMaker Database for Canvas LMS quiz questions<br />
 
-The database is intended for use by instructors as an offline tool to manage course exam/quiz questions with the ability to either post quizzes to Canvas or export for printing.<br />
+The application is intended for use by instructors as an offline tool to create and remotely manage course exam/quiz questions. It can import/post quizzes from/to Canvas, export quizzes to print, and archive quizzes for storage. The only comparable tool of which I'm aware is Respondous. However, Respondous is not available on a Mac.<br />
 
 
-* I currently consider the database 'alpha' code given that:
+* Although stable, I currently consider the application 'alpha' code given that:
 	1. additional features are still being added to facilitate more general use
 	2. the database has only  been tested by me
-* If/when someone provides feedback, I will move the database to 'beta' and start a change log
-* When I discover an issue on my end, I post an updated database when it is fixed
+* If/when someone provides feedback, I will move the database to 'beta' and start a formal change log.
+* When I discover an issue or decide on a new feature, I generally implement a fix and post an updated database, so feel free to check back.
+* The application 'should' be Windows compatible, although export scripts have not be tested given that I use a Mac. If someone tests the application on Windows and discovers that export scripts do not work, it results from file path differences between platforms. If you try it and it does not work, please let me know by posting an issue.
 
 ## Download
 [Any_Questions.zip](Any_Questions.zip) which contains:<br />
