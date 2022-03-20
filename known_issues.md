@@ -39,6 +39,8 @@
 	* If Proctorio is selected for quiz monitoring, the specific settings may not be as expected given that these settings are specified using a quiz-specific character string generated when the quiz is generated on Canvas — which cannot be duplicated remotely. If someone knows how to capture this data, please let me know.
 6. Respondus:
 	* This is completely untested as I have never used it. The setting simply tells Canvas to activate the setting.
+7. Quiz format
+	* quiz format is properly set in the XML, but is not honored by Canvas. All quizzes are imported as 'graded quiz'.
 
 ## 3. Export quiz to HTML for printing
 1. Question formats
