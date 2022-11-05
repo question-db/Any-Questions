@@ -23,7 +23,6 @@
 	* Quiz-specific settings (i.e. instructions, dates, time allowed, etc) are not imported. This is possible, but I'm not sure I see the point.
 7. If quiz import path has special characters, the script may fail
 
-
 ## 2. Exporting quizzes to Canvas
 1. question formats
 	* all formats: Canvas does not honor the 'height' tag of images/figures following import, but does honor the 'width' flag. As such, the database proportionally scales the image based on the image width specified in the figure settings.
@@ -41,6 +40,9 @@
 	* This is completely untested as I have never used it. The setting simply tells Canvas to activate the setting.
 7. Quiz format
 	* quiz format is properly set in the XML, but is not honored by Canvas. All quizzes are imported as 'graded quiz'.
+8. Due/Available/Until Timestamp issues
+	* If one posts a quiz before the end of DST (i.e. before November 6) and the quiz deadlines are after the end of DST, Canvas automatically adjusts the 'availability/until' timestamps 1 hour earlier. However, it does not appear to change the 'due' timestamp accordingly. Thus, one can end up in a situtation where the 'until' timestamp < 'due' timestamp by an hour. This chokes the quiz and prevents editing until the timestamp conflict is resolved. 
+	* If Proctorio is already enabled under conditions described above, the extension chokes. The only way to resolve it is to disable the extension in the web browser, correct the mess Canvas made, save the quiz, then re-enable the browser extension. This is a Canvas bug or feature, I'm not sure which. I presume a similar timestamp adjustment holds true for the transition back into DST in Spring, although I have not tested it.
 
 ## 3. Export quiz to HTML for printing
 1. Question formats
@@ -57,11 +59,4 @@
 	* Quiz-specific ids are captured based on the quiz name. As such, quizzes with names that do not exist in the database are captured, but cannot be linked to questions.
 4. Hyperlinks:
 	* 'Go to quiz preview' does not directly bring users to the expected location.
-	
-## 5. Canvas Timestamp issues
-1. Day light saving time (DST)
-	* If one posts a quiz before the end of DST (i.e. before November 6) and the quiz deadlines are after the end of DST, Canvas automatically adjusts the 'availability/until' timestamps 1 hour earlier. However, it does not appear to change the 'due' timestamp accordingly. Thus, one can end up in a situtation where the 'until' timestamp < 'due' timestamp by an hour. This chokes the quiz and prevents editing until the timestamp conflict is resolved. 
-	* If Proctorio is already enabled under conditions described above, the extension chokes. The only way to resolve it is to disable the extension in the web browser, correct the mess Canvas made, and then save. This is a Canvas bug or feature, I'm not sure which. 
-	* I presume the same timestamp adjustment holds true for the transition back into DST in Spring, although I have not tested it.
 
-	
