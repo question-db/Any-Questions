@@ -58,5 +58,10 @@
 4. Hyperlinks:
 	* 'Go to quiz preview' does not directly bring users to the expected location.
 	
-## 5. Canvas Timestamp issues and day light saving time (DST)
-	* If one posts a quiz before the end of DST (i.e. before November 6) and the quiz deadlines are after the end of DST, Canvas automatically adjusts the 'availability/until' timestamps 1 hour earlier. However, it does not appear to change the 'due' timestamp accordingly. Thus, one can end up in a situtation where the 'until' timestamp < 'due' timestamp by an hour. This chokes the quiz and prevents editing until the timestamp conflict is resolved. Moreover, if Proctorio is already enabled, the extension chokes. The only way to resolve it is to disable the extension in the web browser, correct the mess Canvas made, and then save. This is a Canvas bug or feature, I'm not sure which. I presume the same holds true for the transition back into DST in Spring.
+## 5. Canvas Timestamp issues
+1. Day light saving time (DST)
+	* If one posts a quiz before the end of DST (i.e. before November 6) and the quiz deadlines are after the end of DST, Canvas automatically adjusts the 'availability/until' timestamps 1 hour earlier. However, it does not appear to change the 'due' timestamp accordingly. Thus, one can end up in a situtation where the 'until' timestamp < 'due' timestamp by an hour. This chokes the quiz and prevents editing until the timestamp conflict is resolved. 
+	* If Proctorio is already enabled under conditions described above, the extension chokes. The only way to resolve it is to disable the extension in the web browser, correct the mess Canvas made, and then save. This is a Canvas bug or feature, I'm not sure which. 
+	* I presume the same holds true for the transition back into DST in Spring.
+
+	
