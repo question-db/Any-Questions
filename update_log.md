@@ -19,3 +19,5 @@
 	6. rivse setup page to include subdomain instructions
 	7. fix "Let Students See Their Quiz Responses" toggle
 	8. figure out what happened to HTML Qutestion formatting option
+	9. figure out what happened to HTML Instruction formatting option
+	10. figure out how to handle course id list carryover
