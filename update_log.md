@@ -21,3 +21,5 @@
 	8. figure out what happened to HTML Qutestion formatting option
 	9. figure out what happened to HTML Instruction formatting option
 	10. figure out how to handle course id list carryover
+	11. clarify question order of online (number in quiz layout) vs html (question type) versions
+	12. figure out if random answers apply to drop down questions
