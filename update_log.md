@@ -1,19 +1,16 @@
-**Any-Questions Revision Updates**
+# Any-Questions Revision Updates #
 
-*1.1.5 beta*
-
-
+## 1.1.5 beta ##
 
 
-*1.1.4 beta*
 
-# app globalization for institute access
+## 1.1.4 beta ##
+### A. app globalization for institute access
 	1. added instructure subdomain support
 	2. fixed figure upload
 	3. integrated subdomain dropdown in quiz gear and setup
-	4. 
 	
-# known issues
+### B. known issues ###
 	1. globalize quiz delete scripts
 	2. add DST variable
 	3. deal with timezones on quiz dates
