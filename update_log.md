@@ -18,4 +18,4 @@
 	5. implement courseid format validation
 	6. rivse setup page to include subdomain instructions
 	7. fix "Let Students See Their Quiz Responses" toggle
-	8. figure out what happened to HTML Qutestion formating option
+	8. figure out what happened to HTML Qutestion formatting option
