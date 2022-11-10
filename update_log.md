@@ -23,3 +23,4 @@
 	10. figure out how to handle course id list carryover
 	11. clarify question order of online (number in quiz layout) vs html (question type) versions
 	12. figure out if random answers apply to drop down questions
+	13. change script to generate HTML key to account for answer question type (espcially FIB)
