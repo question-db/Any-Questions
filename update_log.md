@@ -1,8 +1,9 @@
 # Any-Questions Revision Log #
 
-## 1.1.5 beta ##
 
-
+## 1.1.8 beta
+	1. add change log to admin account in instructure database
+	2. add 'delete' tag button/script in tag list
 
 ## 1.1.4 beta ##
 ### A. app globalization for institute access
