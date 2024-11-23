@@ -1,10 +1,16 @@
 # Any-Questions Revision Log #
 
+##1.2.1 beta
+         1. added a note field for questions to be able to add reminders
+##1.2.0 beta
+          1. changed  questions::question_reverse_css to not store calculation 
+## 1.1.9 beta
+          1. change q_select_temp format to binary
 
 ## 1.1.8 beta
 	1. add change log to admin account in instructure database
 	2. add 'delete' tag button/script in tag list
-
+  
 ## 1.1.4 beta ##
 ### A. app globalization for institute access
 	1. added instructure subdomain support
@@ -17,7 +23,7 @@
 	3. deal with timezones on quiz dates
 	4. implement URL format validation
 	5. implement courseid format validation
-	6. rivse setup page to include subdomain instructions
+	6. revise setup page to include subdomain instructions
 	7. fix "Let Students See Their Quiz Responses" toggle
 	8. figure out what happened to HTML Qutestion formatting option
 	9. figure out what happened to HTML Instruction formatting option
