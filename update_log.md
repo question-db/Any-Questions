@@ -1,8 +1,8 @@
 # Any-Questions Revision Log #
 
-##1.2.1 beta
+## 1.2.1 beta
          1. added a note field for questions to be able to add reminders
-##1.2.0 beta
+## 1.2.0 beta
           1. changed  questions::question_reverse_css to not store calculation 
 ## 1.1.9 beta
           1. change q_select_temp format to binary
