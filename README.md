@@ -4,10 +4,9 @@
 The application is intended for use by instructors as an offline tool to create and remotely manage course exam/quiz questions. It can import/post quizzes from/to Canvas, export quizzes to print, and archive quizzes for storage. The only comparable tool of which I'm aware is Respondous. However, Respondous is not available on a Mac.<br />
 
 
-* Although stable, I currently consider the application 'alpha' code given that:
-	1. additional features are still being added to facilitate more general use
-	2. the database has only  been tested by me
-* If/when someone provides feedback, I will move the database to 'beta' and start a formal change log.
+* Although stable, I currently consider the application 'beta' code given that:
+	1. additional features are continually being added to facilitate more general use
+	2. the database has been tested by a variety of Canvas users at multiple institutions.
 * When I discover an issue or decide on a new feature, I generally implement a fix and post an updated database, so feel free to check back.
 * The application 'should' be Windows compatible, although export scripts have not be tested given that I use a Mac. If someone tests the application on Windows and discovers that export scripts do not work, it results from file path differences between platforms. If you try it and it does not work, please let me know by posting an issue.
 
