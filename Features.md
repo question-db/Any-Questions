@@ -62,4 +62,5 @@
 	* post quiz to Canvas (selected or all)
 	* delete quiz from Canvas (single, selected or all)
 	* dynamic links to Canvas (import status, export, quizzes page)
+	* day light savings time support removed 
 
